@@ -2,7 +2,7 @@ package com.psj.rpc.server;
 
 import com.psj.rpc.api.HelloService;
 
-public class TestService {
+public class TestServer {
 
     public static void main(String[] args) {
         HelloService helloService = new HelloServiceImpl();
