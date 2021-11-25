@@ -14,7 +14,7 @@ public class TestClient {
         System.out.println(res);
         ByeService byeService = proxy.getProxy(ByeService.class);
         HelloObject object1 = new HelloObject(12, "This is a message");
-        String res1 = byeService.bye(object.toString());
+        String res1 = byeService.bye(object1.toString());
         System.out.println(res1);
     }
 }
